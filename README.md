@@ -1,5 +1,9 @@
 # CoreDataPractice
 
-Every person has an array of dogs
+Every person has a name and an array of dogs
 
-every dog has one bone and one dog house
+every dog has a name one bone and one dog house
+
+bone has a type
+
+house has a type
