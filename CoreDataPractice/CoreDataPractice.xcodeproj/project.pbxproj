@@ -16,6 +16,15 @@
 		FF5C944A1D6A7304009EB219 /* PersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C94491D6A7304009EB219 /* PersonTableViewController.swift */; };
 		FF5C944C1D6A7313009EB219 /* DogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C944B1D6A7313009EB219 /* DogTableViewController.swift */; };
 		FF5C944E1D6A7323009EB219 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C944D1D6A7323009EB219 /* InfoViewController.swift */; };
+		FF5C94571D6A7704009EB219 /* Bone+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C944F1D6A7704009EB219 /* Bone+CoreDataProperties.swift */; };
+		FF5C94581D6A7704009EB219 /* Bone.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C94501D6A7704009EB219 /* Bone.swift */; };
+		FF5C94591D6A7704009EB219 /* Doghouse+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C94511D6A7704009EB219 /* Doghouse+CoreDataProperties.swift */; };
+		FF5C945A1D6A7704009EB219 /* Doghouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C94521D6A7704009EB219 /* Doghouse.swift */; };
+		FF5C945B1D6A7704009EB219 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C94531D6A7704009EB219 /* Person+CoreDataProperties.swift */; };
+		FF5C945C1D6A7704009EB219 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C94541D6A7704009EB219 /* Person.swift */; };
+		FF5C945D1D6A7704009EB219 /* Dog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C94551D6A7704009EB219 /* Dog+CoreDataProperties.swift */; };
+		FF5C945E1D6A7704009EB219 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C94561D6A7704009EB219 /* Dog.swift */; };
+		FF5C94611D6A77CB009EB219 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C94601D6A77CB009EB219 /* DataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +39,15 @@
 		FF5C94491D6A7304009EB219 /* PersonTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewController.swift; sourceTree = "<group>"; };
 		FF5C944B1D6A7313009EB219 /* DogTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogTableViewController.swift; sourceTree = "<group>"; };
 		FF5C944D1D6A7323009EB219 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		FF5C944F1D6A7704009EB219 /* Bone+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Bone+CoreDataProperties.swift"; path = "../Bone+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FF5C94501D6A7704009EB219 /* Bone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bone.swift; path = ../Bone.swift; sourceTree = "<group>"; };
+		FF5C94511D6A7704009EB219 /* Doghouse+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Doghouse+CoreDataProperties.swift"; path = "../Doghouse+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FF5C94521D6A7704009EB219 /* Doghouse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Doghouse.swift; path = ../Doghouse.swift; sourceTree = "<group>"; };
+		FF5C94531D6A7704009EB219 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Person+CoreDataProperties.swift"; path = "../Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FF5C94541D6A7704009EB219 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ../Person.swift; sourceTree = "<group>"; };
+		FF5C94551D6A7704009EB219 /* Dog+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Dog+CoreDataProperties.swift"; path = "../Dog+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FF5C94561D6A7704009EB219 /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dog.swift; path = ../Dog.swift; sourceTree = "<group>"; };
+		FF5C94601D6A77CB009EB219 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +88,27 @@
 				FF5C944D1D6A7323009EB219 /* InfoViewController.swift */,
 				FF5C943E1D6A7216009EB219 /* Assets.xcassets */,
 				FF5C94401D6A7216009EB219 /* LaunchScreen.storyboard */,
+				FF5C94601D6A77CB009EB219 /* DataStore.swift */,
 				FF5C94431D6A7216009EB219 /* Info.plist */,
 				FF5C943B1D6A7216009EB219 /* CoreDataPractice.xcdatamodeld */,
+				FF5C945F1D6A770E009EB219 /* ManagedObjects */,
 			);
 			path = CoreDataPractice;
+			sourceTree = "<group>";
+		};
+		FF5C945F1D6A770E009EB219 /* ManagedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				FF5C944F1D6A7704009EB219 /* Bone+CoreDataProperties.swift */,
+				FF5C94501D6A7704009EB219 /* Bone.swift */,
+				FF5C94511D6A7704009EB219 /* Doghouse+CoreDataProperties.swift */,
+				FF5C94521D6A7704009EB219 /* Doghouse.swift */,
+				FF5C94531D6A7704009EB219 /* Person+CoreDataProperties.swift */,
+				FF5C94541D6A7704009EB219 /* Person.swift */,
+				FF5C94551D6A7704009EB219 /* Dog+CoreDataProperties.swift */,
+				FF5C94561D6A7704009EB219 /* Dog.swift */,
+			);
+			name = ManagedObjects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,12 +182,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5C94591D6A7704009EB219 /* Doghouse+CoreDataProperties.swift in Sources */,
 				FF5C944A1D6A7304009EB219 /* PersonTableViewController.swift in Sources */,
+				FF5C94581D6A7704009EB219 /* Bone.swift in Sources */,
 				FF5C94371D6A7216009EB219 /* ViewController.swift in Sources */,
 				FF5C944C1D6A7313009EB219 /* DogTableViewController.swift in Sources */,
+				FF5C945D1D6A7704009EB219 /* Dog+CoreDataProperties.swift in Sources */,
+				FF5C945A1D6A7704009EB219 /* Doghouse.swift in Sources */,
+				FF5C945C1D6A7704009EB219 /* Person.swift in Sources */,
+				FF5C945E1D6A7704009EB219 /* Dog.swift in Sources */,
+				FF5C94571D6A7704009EB219 /* Bone+CoreDataProperties.swift in Sources */,
 				FF5C943D1D6A7216009EB219 /* CoreDataPractice.xcdatamodeld in Sources */,
 				FF5C944E1D6A7323009EB219 /* InfoViewController.swift in Sources */,
 				FF5C94351D6A7216009EB219 /* AppDelegate.swift in Sources */,
+				FF5C94611D6A77CB009EB219 /* DataStore.swift in Sources */,
+				FF5C945B1D6A7704009EB219 /* Person+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

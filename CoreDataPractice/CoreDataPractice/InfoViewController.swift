@@ -15,14 +15,18 @@ class InfoViewController: UIViewController {
 	@IBOutlet weak var boneLabel: UILabel!
 	@IBOutlet weak var doghouseLabel: UILabel!
 	
+	var dog = Dog()
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		updateLabels()
 	}
 	
 	func updateLabels() {
-		
-		
+		personLabel.text = dog.person?.name
+		dogLabel.text = dog.name
+		boneLabel.text = dog.bone?.type
+		doghouseLabel.text = dog.bone?.type
 	}
 	
 	

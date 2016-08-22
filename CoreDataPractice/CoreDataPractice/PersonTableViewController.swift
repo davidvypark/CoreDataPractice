@@ -12,27 +12,39 @@ class PersonTableViewController: UITableViewController {
 	
 	let cellIdentifier = "personCell"
 	
+	let store = DataStore.sharedInstance
+	var persons = [Person]()
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		
+		store.fetchData()
+		persons = store.persons
+		tableView.reloadData()
+		print (store.persons.count)
+		print(persons.count)
 	}
 	
 	override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-		return 1
+		return persons.count
 	}
 	
 	override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
 		
 		let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath)
+		cell.textLabel!.text = persons[indexPath.row].name
 		
 		return cell
 	}
 
-	override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-		
-	}
-	
 	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+		if segue.identifier == "dogSegue" {
 		
+			let selectedRow = tableView.indexPathForSelectedRow?.row
+			let selectedPerson = persons[selectedRow!]
+			
+			let destinationVC = segue.destinationViewController as! DogTableViewController
+			destinationVC.person = selectedPerson
+		}
 	}
 }
