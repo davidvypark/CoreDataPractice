@@ -11,7 +11,7 @@ import UIKit
 class DogTableViewController: UITableViewController {
 	
 	let cellIdentifier = "dogCell"
-	var person = Person()
+	var person: Person!
 	var dogs = [Dog]()
 	
 	override func viewDidLoad() {

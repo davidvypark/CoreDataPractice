@@ -57,14 +57,16 @@ class DataStore {
 		let doghouse1 = NSEntityDescription.insertNewObjectForEntityForName(Doghouse.entityName, inManagedObjectContext: managedObjectContext) as! Doghouse
 		
 		person1.name = "David"
-		person1.dog?.insert(dog1)
 		
 		dog1.name = "Kobe"
-		dog1.bone = bone1
-		dog1.doghouse = doghouse1
-		
 		bone1.type = "Chicken"
+		dog1.bone = bone1
 		doghouse1.type = "Mansion"
+		dog1.doghouse = doghouse1
+		person1.dog?.insert(dog1)
+		
+		
+		
 		
 		saveContext()
 		fetchData()

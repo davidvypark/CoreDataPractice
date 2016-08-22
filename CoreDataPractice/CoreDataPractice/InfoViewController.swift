@@ -15,7 +15,7 @@ class InfoViewController: UIViewController {
 	@IBOutlet weak var boneLabel: UILabel!
 	@IBOutlet weak var doghouseLabel: UILabel!
 	
-	var dog = Dog()
+	var dog: Dog!
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -26,7 +26,7 @@ class InfoViewController: UIViewController {
 		personLabel.text = dog.person?.name
 		dogLabel.text = dog.name
 		boneLabel.text = dog.bone?.type
-		doghouseLabel.text = dog.bone?.type
+		doghouseLabel.text = dog.doghouse?.type
 	}
 	
 	

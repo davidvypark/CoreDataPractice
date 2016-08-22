@@ -21,8 +21,16 @@ class PersonTableViewController: UITableViewController {
 		store.fetchData()
 		persons = store.persons
 		tableView.reloadData()
-		print (store.persons.count)
-		print(persons.count)
+//		print (store.persons.count)
+//		print(persons.count)
+//		let dogSet = persons[0].dog
+//		var dogArray = [Dog]()
+//		for dog in dogSet! {
+//			dogArray.append(dog)
+//		}
+//		print(dogArray[0].name)
+//		print(dogArray[0].bone!.type)
+//		print(dogArray[0].doghouse!.type)
 	}
 	
 	override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
